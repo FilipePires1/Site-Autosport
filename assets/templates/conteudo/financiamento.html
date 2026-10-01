@@ -1,0 +1,86 @@
+<main>
+  <section class="pagina-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Você está em" style="color:#9aa3ad;margin-bottom:14px">
+        <a href="../" style="color:#c6ccd4">Início</a><span class="sep">›</span><strong style="color:#fff">Financiamento</strong>
+      </nav>
+      <h1>Financie seu próximo carro</h1>
+      <p>Consulte as condições disponíveis para o veículo escolhido.</p>
+    </div>
+  </section>
+
+  <section class="secao">
+    <div class="container grade-2">
+      <div>
+        <form class="form-carta" data-form="financiamento" novalidate>
+          <h2 style="font-size:22px;font-weight:800;margin-bottom:6px">Falar com consultor</h2>
+          <p class="texto-mudo" style="margin-bottom:22px;font-size:15px">Trabalhamos com simulação real, feita para o veículo e a entrada informados por você.</p>
+
+          <div class="form-grid">
+            <div class="campo-form">
+              <label for="f-nome">Nome <span class="obrig">*</span></label>
+              <input id="f-nome" name="nome" type="text" required autocomplete="name" placeholder="Seu nome completo">
+              <span class="erro">Informe seu nome.</span>
+            </div>
+            <div class="campo-form">
+              <label for="f-zap">WhatsApp <span class="obrig">*</span></label>
+              <input id="f-zap" name="whatsapp" type="tel" required data-telefone autocomplete="tel" placeholder="(31) 99999-9999">
+              <span class="erro">Informe um WhatsApp válido com DDD.</span>
+            </div>
+            <div class="campo-form full">
+              <label for="f-veiculo">Veículo de interesse</label>
+              <input id="f-veiculo" name="veiculo" type="text" data-datalist-veiculos list="lista-veiculos" placeholder="Ex.: Toyota Corolla XEi 2023">
+              <datalist id="lista-veiculos"></datalist>
+            </div>
+            <div class="campo-form full">
+              <label for="f-entrada">Entrada estimada</label>
+              <input id="f-entrada" name="entrada" type="text" placeholder="Ex.: R$ 20.000 ou 'sem entrada'">
+            </div>
+          </div>
+
+          <div class="form-rodape">
+            <button class="btn btn-primary btn-lg" type="submit">Falar com consultor</button>
+            <p class="nota">As condições dependem da instituição financeira e da análise de crédito.</p>
+          </div>
+        </form>
+
+        <div class="form-sucesso" data-sucesso="financiamento">
+          <div class="icone"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5.5 5.5L20 7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Pedido recebido</h3>
+          <p>Um consultor vai tratar das condições para o seu veículo. Se preferir, siga agora pelo WhatsApp.</p>
+          <a class="btn btn-whats btn-lg" data-sucesso-zap href="https://wa.me/5531988634747" target="_blank" rel="noopener">Continuar no WhatsApp</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="passos" style="grid-template-columns:1fr">
+          <div class="passo">
+            <span class="num">1</span>
+            <h3>Escolha o veículo</h3>
+            <p>Navegue pelo estoque e escolha o carro que atende você.</p>
+            <a class="btn btn-outline mt-16" href="../estoque/">Ver estoque</a>
+          </div>
+          <div class="passo">
+            <span class="num">2</span>
+            <h3>Informe a entrada</h3>
+            <p>Digite quanto pretende dar de entrada, ou informe que não terá entrada.</p>
+          </div>
+          <div class="passo">
+            <span class="num">3</span>
+            <h3>Consulte as condições</h3>
+            <p>Montamos a simulação real para esse veículo e devolvemos pelo WhatsApp.</p>
+          </div>
+        </div>
+
+        <div class="endereco-bloco mt-24">
+          <h2 style="font-size:20px">Já escolheu o carro?</h2>
+          <p class="texto-mudo mt-8" style="font-size:15px">Peça a condição de financiamento direto na página do veículo ou fale com um consultor.</p>
+          <div class="botoes-contato">
+            <a class="btn btn-whats btn-block" href="https://wa.me/5531988634747?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20financiamento%20para%20um%20ve%C3%ADculo." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+            <a class="btn btn-outline btn-block" href="tel:+553136685555">Ligar (31) 3668-5555</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

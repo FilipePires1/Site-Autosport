@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Atendimento na Auto Sport Pick-ups">
+  <defs>
+    <linearGradient id="fundoPk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1B1E23"/>
+      <stop offset="100%" stop-color="#101216"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#fundoPk)"/>
+  <rect y="620" width="1200" height="180" fill="#2A2E35"/>
+  <rect y="616" width="1200" height="5" fill="#3E434B"/>
+  <rect x="330" y="80" width="540" height="230" rx="16" fill="#0A0B0D" stroke="#E10600" stroke-width="5"/>
+  <text x="600" y="195" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#FFFFFF">AUTO SPORT</text>
+  <text x="600" y="252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#E10600" letter-spacing="7">PICK-UPS</text>
+  <g>
+    <rect x="70" y="120" width="200" height="330" rx="10" fill="#171A1F" stroke="#33383F" stroke-width="3"/>
+    <rect x="95" y="150" width="150" height="90" rx="6" fill="#22262C"/>
+    <rect x="95" y="255" width="150" height="14" rx="7" fill="#2E333A"/>
+    <rect x="95" y="285" width="110" height="14" rx="7" fill="#2E333A"/>
+    <rect x="930" y="120" width="200" height="330" rx="10" fill="#171A1F" stroke="#33383F" stroke-width="3"/>
+    <rect x="955" y="150" width="150" height="90" rx="6" fill="#22262C"/>
+    <rect x="955" y="255" width="150" height="14" rx="7" fill="#2E333A"/>
+    <rect x="955" y="285" width="110" height="14" rx="7" fill="#2E333A"/>
+  </g>
+  <g transform="translate(300 380)">
+    <rect x="0" y="120" width="600" height="140" rx="12" fill="#15181C" stroke="#343941" stroke-width="3"/>
+    <rect x="0" y="120" width="600" height="10" rx="5" fill="#E10600"/>
+    <rect x="40" y="40" width="150" height="90" rx="8" fill="#0C0E11" stroke="#454B54" stroke-width="3"/>
+    <rect x="55" y="55" width="120" height="60" rx="4" fill="#1E252E"/>
+    <rect x="210" y="70" width="120" height="60" rx="8" fill="#23272D"/>
+    <rect x="360" y="60" width="30" height="70" rx="6" fill="#C9CDD4"/>
+    <rect x="400" y="45" width="30" height="85" rx="6" fill="#E10600"/>
+    <rect x="440" y="75" width="30" height="55" rx="6" fill="#C9CDD4"/>
+  </g>
+  <g transform="translate(430 300)">
+    <circle cx="60" cy="60" r="46" fill="#2F3540"/>
+    <path d="M0 260 C0 172 120 172 120 260 Z" fill="#1D2126"/>
+  </g>
+  <g transform="translate(660 310)">
+    <circle cx="60" cy="60" r="46" fill="#3A414D"/>
+    <path d="M0 250 C0 164 120 164 120 250 Z" fill="#E10600"/>
+    <rect x="34" y="96" width="52" height="16" rx="8" fill="#F2D9C4"/>
+  </g>
+  <text x="600" y="762" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#98A0AB">Equipe pronta para atender você</text>
+</svg>

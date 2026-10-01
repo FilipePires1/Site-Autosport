@@ -1,0 +1,34 @@
+<main>
+  <section class="pagina-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Você está em" style="color:#9aa3ad;margin-bottom:14px">
+        <a href="../" style="color:#c6ccd4">Início</a><span class="sep">›</span><strong style="color:#fff">Meus favoritos</strong>
+      </nav>
+      <h1>Meus favoritos</h1>
+      <p>Compare seus veículos preferidos em um só lugar. A lista fica salva neste navegador.</p>
+    </div>
+  </section>
+
+  <section class="secao">
+    <div class="container">
+      <div class="resultado-topo">
+        <div>
+          <h2 style="font-size:clamp(22px,3vw,28px);font-weight:800">Veículos salvos</h2>
+          <p class="contagem" data-fav-total>Carregando…</p>
+        </div>
+        <a class="btn btn-outline" href="../estoque/">Explorar estoque</a>
+      </div>
+
+      <div class="aviso-status reservado" data-fav-aviso style="display:none">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2" stroke-linecap="round"/></svg>
+        <span>Alguns veículos salvos não estão mais disponíveis e foram removidos da lista.</span>
+      </div>
+
+      <div class="grid-cards" data-lista="favoritos" aria-busy="true">
+        <div class="skeleton"><div class="sk-img"></div><div class="sk-linha medio"></div><div class="sk-linha curta"></div><div class="sk-preco"></div></div>
+        <div class="skeleton"><div class="sk-img"></div><div class="sk-linha medio"></div><div class="sk-linha curta"></div><div class="sk-preco"></div></div>
+        <div class="skeleton"><div class="sk-img"></div><div class="sk-linha medio"></div><div class="sk-linha curta"></div><div class="sk-preco"></div></div>
+      </div>
+    </div>
+  </section>
+</main>

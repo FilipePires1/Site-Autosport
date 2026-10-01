@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Fachada da Auto Sport Pick-ups na Avenida Minas Gerais, 905">
+  <defs>
+    <linearGradient id="ceuPk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1C2430"/>
+      <stop offset="60%" stop-color="#38404E"/>
+      <stop offset="100%" stop-color="#6B5B4A"/>
+    </linearGradient>
+    <linearGradient id="vidroPk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2E3A48"/>
+      <stop offset="100%" stop-color="#161C24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#ceuPk)"/>
+  <circle cx="980" cy="120" r="46" fill="#F3C57A" opacity="0.85"/>
+  <rect y="640" width="1200" height="160" fill="#26292F"/>
+  <rect y="636" width="1200" height="6" fill="#3A3E46"/>
+  <g>
+    <rect x="90" y="180" width="1020" height="460" fill="#121417"/>
+    <rect x="90" y="180" width="1020" height="86" fill="#0A0B0D"/>
+    <rect x="90" y="262" width="1020" height="6" fill="#E10600"/>
+    <text x="600" y="238" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="800" fill="#FFFFFF" letter-spacing="6">AUTO SPORT PICK-UPS</text>
+    <g fill="url(#vidroPk)" stroke="#3E4A58" stroke-width="3">
+      <rect x="130" y="300" width="230" height="270" rx="6"/>
+      <rect x="380" y="300" width="230" height="270" rx="6"/>
+      <rect x="630" y="300" width="230" height="270" rx="6"/>
+      <rect x="880" y="300" width="190" height="270" rx="6"/>
+    </g>
+    <g stroke="#E10600" stroke-width="4" opacity="0.9">
+      <line x1="245" y1="300" x2="245" y2="570"/>
+      <line x1="495" y1="300" x2="495" y2="570"/>
+      <line x1="745" y1="300" x2="745" y2="570"/>
+    </g>
+    <rect x="880" y="300" width="190" height="270" rx="6" fill="#0E1013"/>
+    <circle cx="1035" cy="440" r="7" fill="#E10600"/>
+    <text x="975" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#7C8593">ESTACIONAMENTO</text>
+  </g>
+  <g transform="translate(300 520)">
+    <ellipse cx="180" cy="160" rx="250" ry="24" fill="rgba(0,0,0,0.45)"/>
+    <path d="M20 150 L20 78 L265 78 L300 22 L455 22 L485 78 L610 78 L610 150 Z" fill="#E10600"/>
+    <path d="M315 40 L440 40 L462 78 L315 78 Z" fill="#12161C"/>
+    <path d="M60 60 L250 60 L250 78 L60 78 Z" fill="#B00500"/>
+    <circle cx="140" cy="150" r="54" fill="#101216"/><circle cx="140" cy="150" r="24" fill="#8A9098"/>
+    <circle cx="510" cy="150" r="54" fill="#101216"/><circle cx="510" cy="150" r="24" fill="#8A9098"/>
+    <rect x="586" y="96" width="24" height="16" rx="4" fill="#F6E7C1"/>
+  </g>
+  <text x="600" y="762" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#9AA3AD">Av. Minas Gerais, 905 — Canaã · Ipatinga/MG</text>
+</svg>

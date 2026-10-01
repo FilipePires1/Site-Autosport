@@ -1,0 +1,106 @@
+<main>
+  <section class="pagina-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Você está em" style="color:#9aa3ad;margin-bottom:14px">
+        <a href="../" style="color:#c6ccd4">Início</a><span class="sep">›</span><strong style="color:#fff">Trabalhe conosco</strong>
+      </nav>
+      <h1>Faça parte da equipe Auto Sport.</h1>
+      <p>Estamos desde 2004 em Ipatinga/MG e crescemos com duas unidades: Multimarcas (Ideal) e Pick-ups (Canaã).</p>
+    </div>
+  </section>
+
+  <section class="secao secao-branco">
+    <div class="container grade-2">
+      <div class="sobre-texto">
+        <h2 style="font-size:clamp(24px,3vw,30px);font-weight:800">Trabalhe conosco</h2>
+        <p>A <strong>Auto Sport Multimarcas</strong> é uma empresa de veículos automotores com atuação em Ipatinga e no Vale do Aço. Reunimos carros, SUVs, picapes e utilitários de várias marcas — e procuramos pessoas que gostem de atendimento, vendas e do mundo automotivo.</p>
+        <p>Procuramos candidatos para as áreas de <strong>vendas, administrativo, financeiro e estágio</strong>. Não encontrou sua vaga? Envie mesmo assim seu currículo — guardamos seu perfil para as próximas oportunidades.</p>
+
+        <div class="diferenciais" style="grid-template-columns:1fr 1fr;margin-top:26px">
+          <div class="diferencial">
+            <span class="icone"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 7-7"/><path d="M14 8h6v6"/></svg></span>
+            <div><h3>Crescimento</h3><p>Empresa no mercado desde 2004, com duas unidades em expansão.</p></div>
+          </div>
+          <div class="diferencial">
+            <span class="icone"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9.5" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9"/></svg></span>
+            <div><h3>Equipe próxima</h3><p>Atendimento personalizado, time enxuto e ambiente colaborativo.</p></div>
+          </div>
+          <div class="diferencial">
+            <span class="icone"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+            <div><h3>Duas unidades</h3><p>Ideal (multimarcas) e Canaã (SUVs &amp; pick-ups) — ambos em Ipatinga/MG.</p></div>
+          </div>
+          <div class="diferencial">
+            <span class="icone"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span>
+            <div><h3>Horários claros</h3><p>Seg a Sex 8h às 18h · Sábado 8h às 12h.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <form class="form-carta" data-form="trabalhe-conosco" novalidate>
+          <h2 style="font-size:22px;font-weight:800;margin-bottom:6px">Envie seu currículo</h2>
+          <p class="texto-mudo" style="margin-bottom:22px;font-size:15px">Retornamos pelo WhatsApp normalmente em horário comercial.</p>
+
+          <div class="form-grid">
+            <div class="campo-form full">
+              <label for="t-nome">Nome <span class="obrig">*</span></label>
+              <input id="t-nome" name="nome" type="text" required autocomplete="name" placeholder="Seu nome completo">
+              <span class="erro">Informe seu nome.</span>
+            </div>
+            <div class="campo-form">
+              <label for="t-zap">WhatsApp <span class="obrig">*</span></label>
+              <input id="t-zap" name="whatsapp" type="tel" required data-telefone autocomplete="tel" placeholder="(31) 99999-9999">
+              <span class="erro">Informe um WhatsApp válido com DDD.</span>
+            </div>
+            <div class="campo-form">
+              <label for="t-email">E-mail <span class="obrig">*</span></label>
+              <input id="t-email" name="email" type="email" required autocomplete="email" placeholder="voce@email.com">
+              <span class="erro">Informe um e-mail válido.</span>
+            </div>
+            <div class="campo-form">
+              <label for="t-area">Área de interesse <span class="obrig">*</span></label>
+              <select id="t-area" name="area" required>
+                <option value="">Selecione</option>
+                <option>Vendas</option>
+                <option>Administrativo</option>
+                <option>Financeiro</option>
+                <option>Recepção / Atendimento</option>
+                <option>Estágio</option>
+              </select>
+              <span class="erro">Escolha uma área.</span>
+            </div>
+            <div class="campo-form">
+              <label for="t-cidade">Cidade</label>
+              <input id="t-cidade" name="cidade" type="text" placeholder="Ex.: Ipatinga/MG">
+            </div>
+            <div class="campo-form full">
+              <label for="t-mensagem">Mensagem</label>
+              <textarea id="t-mensagem" name="mensagem" placeholder="Conte um pouco sobre sua experiência e disponibilidade."></textarea>
+            </div>
+            <div class="campo-form full">
+              <label>Currículo (opcional)</label>
+              <div class="dropzone" data-dropzone tabindex="0" role="button" aria-label="Enviar currículo">
+                <strong>Arraste o currículo ou clique para selecionar</strong>
+                PDF, DOC ou IMG · até 5 arquivos
+                <input type="file" accept=".pdf,.doc,.docx,image/*" multiple hidden>
+              </div>
+              <div class="lista-arquivos" data-lista-arquivos></div>
+            </div>
+          </div>
+
+          <div class="form-rodape">
+            <button class="btn btn-primary btn-lg" type="submit">Enviar candidatura</button>
+            <p class="nota">Seus dados são usados apenas para o contato sobre oportunidades de trabalho.</p>
+          </div>
+        </form>
+
+        <div class="form-sucesso" data-sucesso="trabalhe-conosco">
+          <div class="icone"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5.5 5.5L20 7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Candidatura enviada</h3>
+          <p>Obrigado pelo interesse na Auto Sport. Nossa equipe analisará seu perfil e retornará pelo WhatsApp.</p>
+          <a class="btn btn-whats btn-lg" data-sucesso-zap href="https://wa.me/5531988634747" target="_blank" rel="noopener">Continuar no WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

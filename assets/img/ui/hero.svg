@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" width="1600" height="520" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Showroom Auto Sport">
+  <defs>
+    <linearGradient id="hb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17191D"/>
+      <stop offset="50%" stop-color="#101216"/>
+      <stop offset="100%" stop-color="#0A0B0D"/>
+    </linearGradient>
+    <linearGradient id="hr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E10600" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#E10600" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="520" fill="url(#hb)"/>
+  <g opacity="0.35" stroke="rgba(255,255,255,0.16)" fill="none">
+    <path d="M0 380 L1600 340"/>
+    <path d="M0 440 L1600 420"/>
+    <path d="M180 0 L340 520"/>
+    <path d="M1420 0 L1260 520"/>
+  </g>
+  <rect x="0" y="470" width="1600" height="6" fill="url(#hr)"/>
+  <g transform="translate(880 210) scale(1.05)" opacity="0.85">
+    <path d="M60 148 L74 116 C78 106 86 100 98 98 L156 92 C176 70 198 60 226 58 L296 58 C326 60 348 72 364 94 L392 106 C406 112 412 122 412 136 L412 152 C412 160 406 166 398 166 L378 166 A34 34 0 0 0 310 166 L168 166 A34 34 0 0 0 100 166 L70 166 C62 166 56 160 56 152 Z" fill="#23272D"/>
+    <path d="M104 96 L162 90 C180 72 200 64 224 62 L292 62 C316 64 334 74 348 92 L356 100 Z" fill="rgba(255,255,255,0.14)"/>
+    <circle cx="134" cy="166" r="30" fill="#0E1013"/><circle cx="134" cy="166" r="14" fill="#2E333A"/>
+    <circle cx="344" cy="166" r="30" fill="#0E1013"/><circle cx="344" cy="166" r="14" fill="#2E333A"/>
+  </g>
+</svg>

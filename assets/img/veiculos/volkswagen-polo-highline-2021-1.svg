@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img">
+  <defs>
+    <linearGradient id="g0u6fwe" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1C1F24"/>
+      <stop offset="55%" stop-color="#131519"/>
+      <stop offset="100%" stop-color="#0B0C0E"/>
+    </linearGradient>
+    <linearGradient id="g0u6fwef" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.10)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g0u6fwe)"/>
+  <ellipse cx="600" cy="640" rx="520" ry="70" fill="rgba(0,0,0,0.55)"/>
+  <rect y="620" width="1200" height="1" fill="rgba(255,255,255,0.08)"/>
+  <rect x="0" y="0" width="1200" height="220" fill="url(#g0u6fwef)"/>
+  <g opacity="0.5">
+    <path d="M0 620 L1200 620" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+    <path d="M0 700 L1200 700" stroke="rgba(255,255,255,0.05)" stroke-width="2"/>
+  </g>
+  
+  <g transform="translate(240 380) scale(1.5)">
+    <path d="M60 148 L74 116 C78 106 86 100 98 98 L156 92 C176 70 198 60 226 58 L296 58 C326 60 348 72 364 94 L392 106 C406 112 412 122 412 136 L412 152 C412 160 406 166 398 166 L378 166 A34 34 0 0 0 310 166 L168 166 A34 34 0 0 0 100 166 L70 166 C62 166 56 160 56 152 Z" fill="#6E7378" />
+    <path d="M60 148 L74 116 C78 106 86 100 98 98 L156 92 C176 70 198 60 226 58 L296 58 C326 60 348 72 364 94 L392 106 C406 112 412 122 412 136 L412 152 C412 160 406 166 398 166 L378 166 A34 34 0 0 0 310 166 L168 166 A34 34 0 0 0 100 166 L70 166 C62 166 56 160 56 152 Z" fill="none" stroke="rgba(0,0,0,0.45)" stroke-width="3"/>
+    
+  <path d="M104 96 L162 90 C180 72 200 64 224 62 L292 62 C316 64 334 74 348 92 L356 100 Z" fill="rgba(255,255,255,0.16)"/>
+    <path d="M104 128 L412 128" stroke="rgba(0,0,0,0.30)" stroke-width="3"/>
+    <path d="M240 100 L240 166" stroke="rgba(0,0,0,0.25)" stroke-width="3"/>
+    <rect x="384" y="116" width="26" height="14" rx="6" fill="#F5D76E"/>
+    <rect x="62" y="120" width="20" height="12" rx="5" fill="#E10600"/>
+    
+  <g>
+    <circle cx="134" cy="166" r="30" fill="#101215"/>
+    <circle cx="134" cy="166" r="15" fill="#2A2E33"/>
+    <circle cx="134" cy="166" r="6" fill="#4A5057"/>
+    <circle cx="344" cy="166" r="30" fill="#101215"/>
+    <circle cx="344" cy="166" r="15" fill="#2A2E33"/>
+    <circle cx="344" cy="166" r="6" fill="#4A5057"/>
+  </g>
+  </g>
+  <g opacity="0.92">
+    <rect x="48" y="48" width="216" height="54" rx="27" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)"/>
+    <circle cx="78" cy="75" r="7" fill="#E10600"/>
+    <text x="98" y="82" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="2">AUTO SPORT</text>
+  </g>
+  <text x="60" y="748" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="rgba(255,255,255,0.92)">Volkswagen Polo Highline 1.6 MSI</text>
+  <text x="60" y="782" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="rgba(255,255,255,0.45)">Vista frontal</text>
+  <text x="1140" y="782" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="rgba(255,255,255,0.30)">imagem ilustrativa</text>
+</svg>

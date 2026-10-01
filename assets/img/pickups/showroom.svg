@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Showroom da Auto Sport Pick-ups com SUVs e picapes">
+  <defs>
+    <linearGradient id="paredePk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22262C"/>
+      <stop offset="100%" stop-color="#14171B"/>
+    </linearGradient>
+    <linearGradient id="chaoPk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3B4048"/>
+      <stop offset="100%" stop-color="#272B31"/>
+    </linearGradient>
+    <radialGradient id="spotPk" cx="0.5" cy="0" r="1">
+      <stop offset="0%" stop-color="rgba(255,240,210,0.55)"/>
+      <stop offset="100%" stop-color="rgba(255,240,210,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="520" fill="url(#paredePk)"/>
+  <rect y="520" width="1200" height="280" fill="url(#chaoPk)"/>
+  <rect y="516" width="1200" height="5" fill="#4A505A"/>
+  <rect x="410" y="70" width="380" height="240" rx="14" fill="#0C0D10" stroke="#E10600" stroke-width="5"/>
+  <text x="600" y="185" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">AUTO SPORT</text>
+  <text x="600" y="245" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#E10600" letter-spacing="8">PICK-UPS</text>
+  <g>
+    <path d="M120 0 L340 520 L20 520 Z" fill="url(#spotPk)"/>
+    <path d="M470 0 L620 520 L320 520 Z" fill="url(#spotPk)"/>
+    <path d="M840 0 L1010 520 L670 520 Z" fill="url(#spotPk)"/>
+    <rect x="90" y="0" width="90" height="16" rx="8" fill="#0A0B0D"/>
+    <rect x="420" y="0" width="90" height="16" rx="8" fill="#0A0B0D"/>
+    <rect x="790" y="0" width="90" height="16" rx="8" fill="#0A0B0D"/>
+  </g>
+  <g transform="translate(60 400)">
+    <ellipse cx="250" cy="230" rx="300" ry="26" fill="rgba(0,0,0,0.5)"/>
+    <path d="M30 220 L30 120 L300 120 L345 50 L530 50 L565 120 L700 120 L700 220 Z" fill="#E8EAEE"/>
+    <path d="M360 68 L512 68 L540 120 L360 120 Z" fill="#171B21"/>
+    <path d="M70 104 L285 104 L285 120 L70 120 Z" fill="#C9CDD4"/>
+    <circle cx="170" cy="220" r="60" fill="#0F1114"/><circle cx="170" cy="220" r="27" fill="#8A9098"/>
+    <circle cx="590" cy="220" r="60" fill="#0F1114"/><circle cx="590" cy="220" r="27" fill="#8A9098"/>
+    <rect x="672" y="140" width="28" height="18" rx="4" fill="#F6E7C1"/>
+  </g>
+  <g transform="translate(660 430) scale(0.62)">
+    <ellipse cx="250" cy="230" rx="300" ry="26" fill="rgba(0,0,0,0.5)"/>
+    <path d="M30 220 L30 130 L285 130 L330 66 L520 66 L560 130 L700 130 L700 220 Z" fill="#E10600"/>
+    <path d="M348 84 L505 84 L534 130 L348 130 Z" fill="#171B21"/>
+    <circle cx="170" cy="220" r="60" fill="#0F1114"/><circle cx="170" cy="220" r="27" fill="#8A9098"/>
+    <circle cx="590" cy="220" r="60" fill="#0F1114"/><circle cx="590" cy="220" r="27" fill="#8A9098"/>
+  </g>
+  <text x="600" y="770" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#98A0AB">SUVs &amp; Picapes — nacionais e importados</text>
+</svg>

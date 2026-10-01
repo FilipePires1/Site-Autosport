@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img">
+  <defs>
+    <linearGradient id="gk6tvbx" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1C1F24"/>
+      <stop offset="55%" stop-color="#131519"/>
+      <stop offset="100%" stop-color="#0B0C0E"/>
+    </linearGradient>
+    <linearGradient id="gk6tvbxf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.10)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#gk6tvbx)"/>
+  <ellipse cx="600" cy="640" rx="520" ry="70" fill="rgba(0,0,0,0.55)"/>
+  <rect y="620" width="1200" height="1" fill="rgba(255,255,255,0.08)"/>
+  <rect x="0" y="0" width="1200" height="220" fill="url(#gk6tvbxf)"/>
+  <g opacity="0.5">
+    <path d="M0 620 L1200 620" stroke="rgba(255,255,255,0.10)" stroke-width="2"/>
+    <path d="M0 700 L1200 700" stroke="rgba(255,255,255,0.05)" stroke-width="2"/>
+  </g>
+  
+  <g transform="translate(150 300)">
+    <path d="M40 240 C40 130 160 60 450 60 C740 60 860 130 860 240 L860 300 L40 300 Z" fill="#22262B" stroke="rgba(255,255,255,0.10)" stroke-width="3"/>
+    <rect x="360" y="110" width="260" height="130" rx="12" fill="#0E1013" stroke="rgba(255,255,255,0.14)" stroke-width="3"/>
+    <rect x="378" y="128" width="224" height="94" rx="6" fill="#1B2A3A"/>
+    <path d="M396 190 L440 158 L476 186 L520 148 L560 184 L594 162" fill="none" stroke="#E10600" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(150 250)">
+      <circle r="120" fill="#171A1E" stroke="rgba(255,255,255,0.18)" stroke-width="6"/>
+      <circle r="48" fill="#22262B" stroke="rgba(255,255,255,0.14)" stroke-width="5"/>
+      <path d="M-110 -22 L-46 -10 M110 -22 L46 -10 M0 48 L0 116" stroke="rgba(255,255,255,0.20)" stroke-width="14" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(660 250)">
+      <circle r="10" fill="#E10600"/>
+      <circle r="46" fill="none" stroke="rgba(255,255,255,0.20)" stroke-width="8" stroke-dasharray="200 90" transform="rotate(135)"/>
+    </g>
+    <rect x="330" y="272" width="120" height="26" rx="13" fill="#0E1013" stroke="rgba(255,255,255,0.16)" stroke-width="3"/>
+  </g>
+  <g opacity="0.92">
+    <rect x="48" y="48" width="216" height="54" rx="27" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)"/>
+    <circle cx="78" cy="75" r="7" fill="#E10600"/>
+    <text x="98" y="82" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="2">AUTO SPORT</text>
+  </g>
+  <text x="60" y="748" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="rgba(255,255,255,0.92)">Ford Ranger XLS 3.2 4x4</text>
+  <text x="60" y="782" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="rgba(255,255,255,0.45)">Painel e interior</text>
+  <text x="1140" y="782" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="rgba(255,255,255,0.30)">imagem ilustrativa</text>
+</svg>

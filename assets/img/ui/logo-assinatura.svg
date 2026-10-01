@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 340" width="660" height="340" role="img" aria-label="Auto Sport Multimarcas">
+  <ellipse cx="330" cy="170" rx="322" ry="162" fill="#0A0B0D"/>
+  <ellipse cx="330" cy="170" rx="312" ry="152" fill="none" stroke="#FFFFFF" stroke-width="10"/>
+  <text x="330" y="150" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="82" font-weight="900" fill="#FFFFFF" letter-spacing="6">AUTO</text>
+  <path d="M150 196 L470 196 L446 236 L126 236 Z" fill="#E10600"/>
+  <text x="330" y="304" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF" letter-spacing="9">MULTIMARCAS</text>
+  <text x="330" y="240" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="76" font-weight="900" fill="#FFFFFF" letter-spacing="4">SPORT</text>
+</svg>
