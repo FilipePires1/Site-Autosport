@@ -19,14 +19,13 @@
       if (!v) {
         hero.style.display = "none";
       } else {
-        var hLink = hero.querySelector("[data-hero-link]");
-        var hFoto = hero.querySelector("[data-hero-foto]");
-        var hTitulo = hero.querySelector("[data-hero-titulo]");
-        var hInfo = hero.querySelector("[data-hero-info]");
-        var hPreco = hero.querySelector("[data-hero-preco]");
-        if (hLink) hLink.setAttribute("href", AS.rota(v));
+        var rota = AS.rota(v);
+        var hFoto = document.querySelector("[data-hero-foto]");
+        var hInfo = document.querySelector("[data-hero-info]");
+        var hPreco = document.querySelector("[data-hero-preco]");
+        document.querySelectorAll("[data-hero-titulo]").forEach(function (el) { el.textContent = AS.titulo(v); });
+        document.querySelectorAll("[data-hero-link], [data-hero-link-cta]").forEach(function (el) { el.setAttribute("href", rota); });
         if (hFoto) { hFoto.src = v.fotos[0]; hFoto.alt = AS.titulo(v); }
-        if (hTitulo) hTitulo.textContent = AS.titulo(v);
         if (hInfo) hInfo.textContent = AS.resumo(v);
         if (hPreco) hPreco.textContent = AS.brl(v.preco);
       }

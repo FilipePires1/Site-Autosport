@@ -77,6 +77,8 @@ veículo já usam esses caminhos.
 
 ## Observações
 
+- Foto do hero: Mercedes-Benz SLS AMG Roadster, por Stefan Krause —
+  Wikimedia Commons (Free Art License), arquivo `assets/img/ui/hero-mercedes.jpg`.
 - Favoritos e leads de demonstração ficam no `localStorage`
   (chaves `autosport:favoritos` e `autosport:leads`).
 - Todo CTA de WhatsApp leva ao número da loja já com a mensagem do veículo.

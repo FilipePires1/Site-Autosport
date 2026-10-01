@@ -92,14 +92,8 @@
   </div>
 
   <main>
+    <!-- Hero: foto Mercedes-Benz SLS AMG Roadster - Wikimedia Commons, Free Art License, autor Stefan Krause -->
     <section class="hero hero-landing">
-      <div class="hero-fundo" aria-hidden="true">
-        <span class="hero-fundo-img" style="background-image:url('assets/img/veiculos/ford-ranger-xls-2020-1.svg')"></span>
-        <span class="hero-fundo-img" style="background-image:url('assets/img/veiculos/fiat-toro-freedom-2023-1.svg')"></span>
-        <span class="hero-fundo-img" style="background-image:url('assets/img/veiculos/honda-hrv-exl-2022-1.svg')"></span>
-        <span class="hero-fundo-img" style="background-image:url('assets/img/veiculos/toyota-hilux-sw4-srv-2021-1.svg')"></span>
-        <span class="hero-fundo-img" style="background-image:url('assets/img/veiculos/chevrolet-onix-plus-lt-2023-1.svg')"></span>
-      </div>
       <span class="hero-brilho" aria-hidden="true"></span>
       <div class="container hero-inner">
         <div class="hero-conteudo">
@@ -108,20 +102,12 @@
           <h1>Seu próximo carro <em>está aqui</em>.</h1>
           <p class="sub"><strong>Bem-vindo à Auto Sport Multimarcas.</strong> Compramos, vendemos e financiamos veículos em Ipatinga e no Vale do Aço — com nota 4,9 no Google e atendimento de verdade.</p>
 
-          <form class="busca" role="search" data-busca-rapida>
-            <div class="campo">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
-              <label class="sr-only" for="busca-hero">Buscar veículo</label>
-              <input id="busca-hero" type="search" placeholder="Digite marca, modelo ou versão" autocomplete="off">
-            </div>
-            <button class="btn btn-primary" type="submit">Buscar</button>
-          </form>
-
-          <div class="atalhos">
-            <a class="atalho principal" href="estoque/">Comprar carro</a>
-            <a class="atalho" href="ofertas/">Ofertas</a>
-            <a class="atalho" href="estoque/?ordem=recentes">Mais recentes</a>
-            <a class="atalho" href="estoque/?ordem=preco-menor">Menor preço</a>
+          <div class="hero-ctas">
+            <a class="btn btn-primary btn-grande" href="estoque/">Comprar carro</a>
+            <a class="btn btn-whats btn-grande" href="https://wa.me/5531988634747?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Auto%20Sport%20Multimarcas." target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.94.53 3.75 1.45 5.31L2 22.5l5.5-1.6a9.8 9.8 0 0 0 4.54 1.12c5.43 0 9.84-4.4 9.84-9.84S17.47 2 12.04 2z"/></svg>
+              Falar no WhatsApp
+            </a>
           </div>
 
           <ul class="hero-numeros">
@@ -131,8 +117,32 @@
             <li><strong>desde 2004</strong><span>no mercado automotivo</span></li>
           </ul>
         </div>
+      </div>
+    </section>
 
-        <aside class="hero-visual" data-hero-veiculo="toyota-corolla-xei-2023">
+    <section class="secao-busca">
+      <div class="container">
+        <form class="busca" role="search" data-busca-rapida>
+          <div class="campo">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5" stroke-linecap="round"/></svg>
+            <label class="sr-only" for="busca-hero">Buscar veículo</label>
+            <input id="busca-hero" type="search" placeholder="Digite marca, modelo ou versão" autocomplete="off">
+          </div>
+          <button class="btn btn-primary" type="submit">Buscar</button>
+        </form>
+
+        <div class="atalhos">
+          <a class="atalho principal" href="estoque/">Comprar carro</a>
+          <a class="atalho" href="ofertas/">Ofertas</a>
+          <a class="atalho" href="estoque/?ordem=recentes">Mais recentes</a>
+          <a class="atalho" href="estoque/?ordem=preco-menor">Menor preço</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-branco" id="destaque-semana">
+      <div class="container grade-2 destaque-grade">
+        <div class="hero-visual" data-hero-veiculo="toyota-corolla-xei-2023">
           <a class="hero-card" href="estoque/toyota-corolla-xei-2023/" data-hero-link>
             <span class="hero-card-selo">Destaque da semana</span>
             <img data-hero-foto src="assets/img/veiculos/toyota-corolla-xei-2023-1.svg" alt="Toyota Corolla XEi 2.0 2023 - Auto Sport Multimarcas" width="1200" height="800">
@@ -147,17 +157,24 @@
               </span>
             </span>
           </a>
+        </div>
 
-          <span class="hero-chip hero-chip-nota">
-            <span class="estrelas" aria-hidden="true">★★★★★</span>
-            <span><b>4,9</b> no Google · 44 avaliações</span>
-          </span>
-
-          <span class="hero-chip hero-chip-zap">
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.94.53 3.75 1.45 5.31L2 22.5l5.5-1.6a9.8 9.8 0 0 0 4.54 1.12c5.43 0 9.84-4.4 9.84-9.84S17.47 2 12.04 2z"/></svg>
-            Resposta pelo WhatsApp em minutos
-          </span>
-        </aside>
+        <div class="destaque-texto">
+          <p class="destaque-eyebrow">Seleção da semana</p>
+          <h2>Destaque da semana</h2>
+          <p>Um veículo escolhido pela nossa equipe, com procedência verificada, histórico conferido e condição especial para quem está pronto para comprar.</p>
+          <ul class="destaque-lista">
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Avaliado e com histórico conferido</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Aceita financiamento e troca</li>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Resposta rápida pelo WhatsApp</li>
+          </ul>
+          <div class="destaque-acoes">
+            <a class="btn btn-dark" data-hero-link-cta href="estoque/toyota-corolla-xei-2023/">Ver este veículo</a>
+            <a class="ver-tudo" href="estoque/">Ver todo o estoque
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
